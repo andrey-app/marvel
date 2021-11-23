@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__pesquisa">
+        <input id="buscarNome" class="header__pesquisa--input" type="text" placeholder="Busque um personagem"/>
+        <img class="header__pesquisa--icone" src="./img/pesquisar.svg" alt="Icone de uma lupa"/>
+      </div>
+    </header>
+    <section>
+      <ul class="section__inicial"></ul>
+      <div class="section__personagem">
+        <div class="section__personagem--dados">
+          <span id="voltarPagina">
+            <img src="./img/voltar.svg" alt="icone voltar" />
+          </span>
+          <div class="section__personagem--name"></div>
+          <div class="section__personagem--img"></div>
+          <div class="section__personagem--description"></div>
+          <ul class="section__personagem--comics"></ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer__conteudo">
+        <img class="icone__paginacao--anterior" src="img/voltar.svg" alt="Voltar paginação" />
+        <ul class="quantidade-paginas"></ul>
+        <img class="icone__paginacao--proximo" src="img/proximo.svg" alt="Avançar paginação" />
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

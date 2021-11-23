@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+:root {
+  --font: "Roboto", sans-serif;
+  
+  --backgroundHeader: #0f0f0f;
+  --backgroundSection: #4f4f4f;
+  --backgroundFooter: #0f0f0f;
+
+  --backgroundCardNome: #1c1c1bed;
+  --backgroundImagem: #ed1a23;
+  --backgroundName:#1312124f;
+  --backgroundImagemHover: #881218;
+  --background: #161616ed;
+  --fontColor: #fdfbfb;
+  --indicePaginas: #ccb07c;
+
+  --backgroundInput: #fdfdfdd9;
+  --backgroundInputHover: #fdfdfd;
+
+  --backgroundIcone: #212020;
+  --backgroundIconeHover: #504f4f;
+  --backgroundIconeVoltar: #680004;
+  --backgroundComicsHeader: #68000480;
+  --backgroundComicsImagem: #020202;
+  
+}

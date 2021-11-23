@@ -1,0 +1,55 @@
+header {
+  background-color: var(--backgroundHeader);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__img {
+  height: 10vh;
+  position: absolute;
+  left: 0;
+}
+
+.header__pesquisa {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.header__pesquisa--input {
+  width: 100%;
+  height: 6.6vh;
+  max-height: 54px;
+  border-radius: 8px 0px 0px 8px;
+  background: var(--backgroundInput);
+  padding-left: 16px;
+  font-size: 1.6rem;
+  font-family: var(--font);
+  border: none;
+  transition: background 0.1s;
+}
+.header__pesquisa--input:hover {
+  background: var(--backgroundInputHover);
+}
+.header__pesquisa--input:focus {
+  background: var(--backgroundInputHover);
+  outline: 0;
+}
+
+.header__pesquisa--icone {
+  width: 4vw;
+  height: 6.6vh;
+  max-height: 54px;
+  padding: 8px;
+  background: var(--backgroundIcone);
+  border-radius: 0 8px 8px 0;
+  transition: background 2s;
+}
+
+.header__pesquisa--icone:hover {
+  background: var(--backgroundIconeHover);
+  cursor: pointer;
+  
+}

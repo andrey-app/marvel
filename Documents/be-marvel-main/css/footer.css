@@ -1,0 +1,69 @@
+footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--backgroundFooter);
+}
+
+.footer__conteudo {
+  height: 10vh;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantidade-paginas {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  color: var(--fontColor);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-family: var(--font);
+}
+
+.quantidade-paginas li {
+  font-size: 2.5rem;
+  border-top: 1px solid transparent;
+  padding-bottom: 4px;
+  color: var(--fontColor);
+  transition: color 1s;
+  transition: border-top 1s;
+  font-family: var(--font);
+font-weight: 100;
+}
+
+.quantidade-paginas li:hover {
+  cursor: pointer;
+  border-top: 1px solid var(--fontColor);
+  color: var(--indicePaginas);
+}
+
+.marcar-pagina {
+  border-bottom: 3px solid var(--fontColor);
+}
+
+.icone__paginacao--anterior,
+.icone__paginacao--proximo {
+  width: 30px;
+  height: 30px;
+  color: var(--fontColor);
+  cursor: pointer;
+}
+
+.icone__paginacao--anterior:hover,
+.icone__paginacao--proximo:hover {
+  animation: icone-animation 0.8s infinite;
+}
+
+@keyframes icone-animation {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(5px);
+  }
+}
